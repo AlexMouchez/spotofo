@@ -1,0 +1,42 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+body header:not(main header) {
+  background-color: yellow;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+body main {
+  box-shadow: 10px 10px 5px black;
+  border: solid;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+body main header {
+  width: 100%;
+  background-color: white;
+  align-items: center;
+}
+body main header nav {
+  width: 33%;
+  flex-wrap: wrap;
+}
+body main header nav article:first-child {
+  align-items: center;
+}
+body main table, body main tr {
+  border: solid 1px grey;
+}
+
+.card {
+  box-shadow: 10px 0px 5px black;
+}
+
+span p {
+  color: white;
+  background-color: black;
+  border-radius: 100px;
+  padding: 10px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
