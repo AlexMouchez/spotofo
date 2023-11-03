@@ -2,8 +2,6 @@ let i = 0;
 let damien;
 
 function init() {
-
-
   var client_id = 'ad3081bb0666462ab15fe93a61d5747e';
   var client_secret = '7d480fc161254b9eb819d4ea7a522f92';
 
@@ -27,7 +25,7 @@ function init() {
 
       var fetchOptions = {
         headers: {
-          'Cache-Control': 'no-cache',
+        //  'Cache-Control': 'no-cache',
           'Authorization': `Bearer ${json.access_token}`,
           'Content-Type': 'application/json'
         }
